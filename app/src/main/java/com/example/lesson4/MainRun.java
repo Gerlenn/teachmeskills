@@ -11,13 +11,13 @@ public class MainRun{
 class Pigeon extends Bird{
     @Override
     void fly() {
-        System.out.println("Голубь летает");
+        System.out.println("The pigeon is flying");
     }
 }
 class Crow extends Bird{
     @Override
     void fly() {
-        System.out.println("Ворона летает");
+        System.out.println("The crow is flying");
     }
 }
 abstract class Bird {
